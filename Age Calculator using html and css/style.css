@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bg.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .calculator {
+    background-color: transparent;
+    background: rgba(2, 2, 2, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(153, 73, 73, 0.1);
+    text-align: center;
+    width: 25vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s all ease;
+  }
+  .calculator:hover{
+    transform: translate(5px);
+  }
+  h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #12f7ff;
+  }
+  label {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    transition: color 0.3s, background-color 0.3s, box-shadow 0.3s; /* Added transition effect */
+    border-radius: 5px;
+  }
+  
+  input:hover {
+    color: #000000;
+    background-color: #e97a12;
+    box-shadow: 0 0 10px rgba(13, 195, 22, 0.2);
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s, box-shadow 0.3s; /* Added transition effect */
+  }
+  
+  button:hover {
+    background-color: #c90ee5;
+    color: #fff;
+    box-shadow: 0 3px 10px #12f7ff;
+  }
+  
+  #error {
+    color: red;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 300;
+    color: #2cb333;
+  }
+  
